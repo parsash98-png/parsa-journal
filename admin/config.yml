@@ -1,0 +1,29 @@
+backend:
+  name: github
+    repo: parsash98-png/parsa-journal
+      branch: main
+        base_url: https://REPLACE-WITH-OAUTH-WORKER-URL
+          auth_endpoint: auth
+
+          media_folder: "images"
+          public_folder: "/images"
+
+          collections:
+            - name: "homepage"
+                label: "Homepage"
+                    files:
+                          - name: "homepage"
+                                  label: "Homepage Content"
+                                          file: "posts.json"
+                                                  fields:
+                                                            - { label: "Hero Heading", name: "hero_heading", widget: "string" }
+                                                                      - { label: "Hero Highlight", name: "hero_highlight", widget: "string" }
+                                                                                - { label: "Hero Body", name: "hero_body", widget: "text" }
+                                                                                          - label: "Blog Posts"
+                                                                                                      name: "posts"
+                                                                                                                  widget: "list"
+                                                                                                                              fields:
+                                                                                                                                            - { label: "Category", name: "category", widget: "string" }
+                                                                                                                                                          - { label: "Title", name: "title", widget: "string" }
+                                                                                                                                                                        - { label: "Excerpt", name: "excerpt", widget: "text" }
+                                                                                                                                                                                      - { label: "Photo", name: "image", widget: "image" }
