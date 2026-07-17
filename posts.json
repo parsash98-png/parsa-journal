@@ -1,0 +1,25 @@
+{
+    "hero_heading": "Quiet notes on design, cities, and the rituals that shape a thoughtful life.",
+    "hero_highlight": "Written with a golden thread of curiosity.",
+    "hero_body": "A clean personal journal for essays, field notes, and reflections - edited slowly, published simply, and designed to leave breathing room around every idea.",
+    "posts": [
+          {
+                  "category": "Reflection",
+                  "title": "The slow architecture of a good morning",
+                  "excerpt": "On building small rituals that hold the rest of the day together.",
+                  "image": "/images/post-1.jpg"
+          },
+          {
+                  "category": "Cities",
+                  "title": "Walking as a way of thinking",
+                  "excerpt": "Notes from a week of aimless walks through unfamiliar streets.",
+                  "image": "/images/post-2.jpg"
+          },
+          {
+                  "category": "Design",
+                  "title": "Why restraint is a design decision",
+                  "excerpt": "What quiet interfaces can teach us about quiet living.",
+                  "image": "/images/post-3.jpg"
+          }
+    ]
+}
